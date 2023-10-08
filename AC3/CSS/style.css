@@ -25,6 +25,8 @@ h1,h2 {
 /* ***************** header ***************** */
 
 header {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,6 +83,9 @@ nav {
 /* ***************** backgrond ***************** */
 
 .banner {
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
     object-fit: cover;
     width: 100%;
     height: 80vh;   
@@ -157,8 +162,41 @@ nav {
         border-radius: 10px;
     }
 }
+
 /* ***************** video ***************** */
 
+/* ***************** Sobre Mim ***************** */
+.container {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+}
 
+.container h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    /* text-align: justify; */
+}
+
+.container div p {
+    width: 50%;
+    position: relative;
+    top: 55px;
+}
+
+.logo {
+    position: relative;
+    left: 0;
+    height: 30%;
+}
+/* ***************** Sobre Mim ***************** */
 
 
